@@ -1,0 +1,3 @@
+FROM alpine:latest
+COPY hotwrap-init.tar /
+CMD cat /hotwrap-init.tar
