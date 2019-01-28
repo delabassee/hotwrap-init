@@ -6,7 +6,7 @@ See [hotwrap](https://github.com/fnproject/hotwrap) details and [init-images](ht
 
 `tar cf hotwrap-init.tar func.init.yaml Dockerfile`
 
-`docker build -f Dockerfile-init -t hotwrap-init.tar .`
+`docker build -f Dockerfile-init -t hotwrap-init .`
 
 `fn init --init-image hotwrap-init myfunc`
 
